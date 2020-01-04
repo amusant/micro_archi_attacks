@@ -1,5 +1,5 @@
-### Accelerator Design with OpenCL
-##### (Athens Week 18-22 Nov, 2019) 
+### Micro-Architectural Attacks
+##### (6 Jan, 2020) 
 ---
 ### Parallelism
 
