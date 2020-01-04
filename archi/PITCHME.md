@@ -1,11 +1,14 @@
 ### Micro-Architectural Attacks
 ##### (6 Jan, 2020) 
 ---
-### Parallelism
+### Information Leakage
 
-- Task Parallelism |
-- Data Parallelism |
-- Pipeline |
+- Side Channels: Unintentional leakage of sensitive data
+- Covert Channels: Deliberate leakage of sensitive data (by a Trojan) 
+
+- Types of Side Channel in the micro-architectural Context
+	- Storage Side-Channels: e.g unprotected memory locations.
+	- Timing Side channels: e.g Information contained in cache hit/miss time difference.
 
 Note:
 Task example car assembly
