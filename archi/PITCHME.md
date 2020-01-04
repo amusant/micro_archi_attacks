@@ -201,6 +201,9 @@
 - Can not be done in compiler as compiler does not have runtime data.
 	- e.g dynamic Scheduling
 ---
+### SCA Classifications
+<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/sca_classification.svg" height="400"/>
+---
 
 
 ### Example Heterogeneous SoCs
