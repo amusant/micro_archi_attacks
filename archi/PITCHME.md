@@ -179,12 +179,11 @@
 	- Tagged Hybrid Predcitors. ([1] p.188)
 ---
 ### Dynamic Scheduling and Out-of-Order execution
----
 +++?code=archi/src/ex1.asm&lang=c&title=example [1] p.193
 @(Dynamic Scheduling and Out-of-Order execution)
 @[7-11](The OpenCL kernel)
 @[37](Get Platform Ids.)
-
+---
 ### Out-of-Order Pipeline
 <img src="assets/ooo.png" height="400"/>
 ---
