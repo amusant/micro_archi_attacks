@@ -160,19 +160,13 @@
 ### Reacp: Multi-Threading
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/mt.svg" height="400"/>
 ---
+### In Order Processor Pipeline
+<img src="assets/up-pipeline.png" height="400"/>
+---
+### Out-of-Order Pipeline
+<img src="assets/ooo.png" height="400"/>
+---
 
-### GPU Architecture : Uniprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uniprocessor.svg" height="400"/>
----
-### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd1.svg" height="400"/>
----
-### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd2.svg" height="400"/>
----
-### GPU Architecture : SIMD
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_simd3.svg" height="400"/>
----
 
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
