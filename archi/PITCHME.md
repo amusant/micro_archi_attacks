@@ -1,67 +1,19 @@
 ### Micro-Architectural Attacks
 ##### (6 Jan, 2020) 
 ---
+### Micro-Architectural Attacks
+
+- Information Leakage
+	- Side Channels: Unintentional leakage of sensitive data
+	- Covert Channels: Deliberate leakage of sensitive data (by a Trojan) 
+- Denial of Service
+
+---
 ### Information Leakage
-
-- Side Channels: Unintentional leakage of sensitive data
-- Covert Channels: Deliberate leakage of sensitive data (by a Trojan) 
-
 - Types of Side Channel in the micro-architectural Context
 	- Storage Side-Channels: e.g unprotected memory locations.
 	- Timing Side channels: e.g Information contained in cache hit/miss time difference.
 
-Note:
-Task example car assembly
-Data Example Graphic render
-pipeline: car assembly.
----
-### Task Parallelism
-
-* A process in broken into different tasks.
-* If the tasks are independent they can be run on parallel.
-* e.g Car Assembly
-Note:
-draw it on board
----
-### Data Parallelism
-
-* Diffrent parts of data can be processed in parallel.
-* e.g vector addition
-
-Note:
-draw it on board
----
-#### quiz
-- Get the average value of a vector |
-
-Is it a data parallel application ?
----
-### Pipeline
-
-* Parallelism in time.
-* each stage is dependent on the previous one.
-* e.g Car Assembly, Video Pipeline
-Note:
-draw it on board
----
-#### quiz
-
-* What could be the disadvantages of pipeline ?
-
----
-#### quiz
-
-* How to calculate the performance of a pipeline ?
-
----
-### Parallelism: Amdahl's Law
-`$$speedup= \frac{1}{S+\frac{P}{N}}$$` 
-* S:Fraction of the application that is serial.
-* P:Fraction of the application that is parallelizable. 
-* N Processor Speedup.
----
-#### quiz
-* Suppose that we want to enhance the processor used for web serving. The new processor is 10 times faster on computation in the web serving application than the old processor. Assuming that the original processor is busy with computation 40% of the time and is waiting for I/0 60% of the time, what's the overall sppedup gained by incorporating enhancement?
 ---
 ### Recap: Computer Architecture
 
