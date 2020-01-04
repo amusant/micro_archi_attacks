@@ -202,7 +202,7 @@
 	- e.g dynamic Scheduling
 ---
 ### SCA Classifications
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/sca_classification.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
 ---
 
 
