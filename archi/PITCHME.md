@@ -178,13 +178,28 @@
 	- Tournament Predictors. ([1] p. 184)
 	- Tagged Hybrid Predcitors. ([1] p.188)
 ---
-### Dynamic Scheduling and Out-of-Order execution
+
 +++?code=archi/src/ex1.asm&lang=c&title=Dynamic Scheduling and Out-of-Order execution [1] p.193
 @[1-2](Dependence)
 @[3](Stalled)
 ---
+
 ### Out-of-Order Pipeline
 <img src="assets/ooo.png" height="400"/>
+---
+
+### Out-of-Order Pipeline
+- Multiple Insturction are fetched in parallel.
+- Execute Instructions that are ready (I.e data available)
+- Instructions are commited in-order using the reorder buffer
+---
+
+### Out-of-Order Pipeline
+- Hides Latency (Like Cache, & Multiple threads)
+- Much More complex
+- Security Hazards (As we will see later)
+- Can not be done in compiler as compiler does not have runtime data.
+	- e.g dynamic Scheduling
 ---
 
 
