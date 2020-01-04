@@ -205,6 +205,10 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
 ---
 
++++?code=archi/src/mm.c&lang=c&title=Montgomery Multiplier BTB Attack
+@[1-2](Dependence)
+@[3](Stalled)
+---
 
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
