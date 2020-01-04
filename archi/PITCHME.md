@@ -163,6 +163,28 @@
 ### In Order Processor Pipeline
 <img src="assets/up-pipeline.png" height="400"/>
 ---
+### In Order Processor Pipeline
+- Statically Scheduled (During Compile Time)
+- Pipeline Hazards
+	- Structural Hazards: e.g two back-to-back instructions using the floaitng point unit.
+	- Data Hazards: e.g an instruction depends on the result of the previous instruction.
+	- Control Hazards: e.g branhces , future value of PC is not known.
+---
+### In Order Processor Pipeline
+- Data hazards stall the pipeline.
+- Need Branch predictors for control hazards:
+	- Simple 1 bit/ 2 bit predictors. ([1], p.C-24)
+	- Correlating Branch Predictor. ([1] p. 182)
+	- Tournament Predictors. ([1] p. 184)
+	- Tagged Hybrid Predcitors. ([1] p.188)
+---
+### Dynamic Scheduling and Out-of-Order execution
+---
++++?code=archi/src/ex1.asm&lang=c&title=example [1] p.193
+@(Dynamic Scheduling and Out-of-Order execution)
+@[7-11](The OpenCL kernel)
+@[37](Get Platform Ids.)
+
 ### Out-of-Order Pipeline
 <img src="assets/ooo.png" height="400"/>
 ---
