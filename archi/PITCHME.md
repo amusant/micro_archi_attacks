@@ -226,16 +226,12 @@
 - spy finds from its own execution time if the branch was taken. |
 ---
 
-### Example: Cache Side Channel
 <img src="assets/slide1.jpg" height="600"/>
 ----
-### A
 <img src="assets/slide2.jpg" height="600"/>
 ---
-### B
 <img src="assets/slide3.jpg" height="600"/>
 ---
-### C
 <img src="assets/slide4.jpg" height="600"/>
 ---
 ### Example: Memory Controller Side Channel
