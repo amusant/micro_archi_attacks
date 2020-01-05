@@ -247,8 +247,6 @@
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
 ----
-
-
 ### References
 - [1]
 - [2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c
@@ -256,8 +254,4 @@
 - [4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,
 - [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
 ---
-### Our SoC: Exynos 5422
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/exynos5422.svg" height="400"/>
----
-
 #### quiz
