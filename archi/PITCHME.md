@@ -254,4 +254,23 @@
 - [4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,
 - [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
 ---
-#### quiz
+#### TP STEP 1
+- Clone the repository  https://github.com/amusant/micro_archi_attacks
+
+- $source env.sh  → sets up environment variables.
+
+- Go to directory hit_miss; look into code hit_miss.c
+
+- Run make to compile the code in hit_miss directory
+
+- Runs $make launch to launch simulation.
+
+- We use the gem5 simulator to simulate a basic system with x86 processor and two levels of cache.
+
+- Understand the code used for 
+	- Flush
+	- Acces 
+	- Reload
+- By changing the acces pattern  do you see any difference in the output  ?
+
+- What is the role of STRIDE, does the code still work after changing STRIDE ?
