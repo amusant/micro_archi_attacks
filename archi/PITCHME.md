@@ -247,13 +247,6 @@
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
 ---
-### References
-- [1]
-- [2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c
-- [3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack
-- [4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,
-- [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
----
 #### TP STEP 1
 - @size[0.5em](Clone the repository  https://github.com/amusant/micro_archi_attacks)
 - @size[0.5em]($source env.sh  → sets up environment variables.)
@@ -292,4 +285,12 @@
 - Change line 99 in ../configs/two_level.py
 	- from DerivO3CPU() to TimingSimpleCPU()
 	- realaunch simulation
-	- DOes it work ? 
+	- Does it work ? 
+---
+### References
+- [1]
+- [2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c
+- [3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack
+- [4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,
+- [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
+---
