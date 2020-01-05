@@ -255,17 +255,15 @@
 - [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
 ---
 #### TP STEP 1
-@size[0.1em](
-- Clone the repository  https://github.com/amusant/micro_archi_attacks
-- $source env.sh  → sets up environment variables.
-- Go to directory hit_miss; look into code hit_miss.c
-- Run make to compile the code in hit_miss directory
-- Runs $make launch to launch simulation.
-- We use the gem5 simulator to simulate a basic system with x86 processor and two levels of cache.
-- Understand the code used for 
+- @size[1em](Clone the repository  https://github.com/amusant/micro_archi_attacks)
+- @size[1em]($source env.sh  → sets up environment variables.)
+- @size[1em](Go to directory hit_miss; look into code hit_miss.c)
+- @size[1em](Run make to compile the code in hit_miss directory)
+- @size[1em](Runs $make launch to launch simulation.)
+- @size[1em](We use the gem5 simulator to simulate a basic system with x86 processor and two levels of cache.)
+- @size[1em](Understand the code used for )
     - Flush
     - Acces 
     - Reload
 - By changing the acces pattern  do you see any difference in the output  ?
 - What is the role of STRIDE, does the code still work after changing STRIDE ?
-)
