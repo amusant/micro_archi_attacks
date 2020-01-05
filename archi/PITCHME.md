@@ -274,6 +274,13 @@ if (x < array1_size)
 
 ---
 
+### Spectre Mitigations
+
+- All Out-of-Order Processors are affected by spectre.
+- However it is harder to exploit. Need to find code pattern in the victim:
+         if (x < array1_size)
+                    y = array2[array1[x] * 4096];
+
 
 #### TP : GEM5 Config
 <img src="assets/gem5.png" height="600"/>
@@ -329,4 +336,6 @@ if (x < array1_size)
 - @size[0.5em]([3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack)
 - @size[0.5em]([4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,)
 - @size[0.5em]([5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser)
+- @size[0.5em]([5] Spectre Attacks: Exploiting Speculative Execution Paul Kocher, Jann Horn, Anders Fogh, Daniel Genkin,Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp,Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom)
+- @size[0.5em](Meltdown: Reading Kernel Memory from User Space Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher,Werner Haas, Anders Fogh, Jann Horn, Stefan Mangard,Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg)
 ---
