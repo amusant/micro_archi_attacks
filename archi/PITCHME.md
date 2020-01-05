@@ -246,7 +246,7 @@
 - find target addresses
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
-
+### Spectre
 +++?code=archi/src/hit_miss.c&lang=c&title=spectre.c
 @[41-45](Speculative execution of branch even when x > array1_size.)
 +++?code=archi/src/hit_miss.c&lang=c&title=spectre.c
@@ -265,7 +265,14 @@ if (x < array1_size)
       - â The array2 index accessed is the value stored in victim_address.
 
 ---
+### Spectre
+if (x < array1_size)
+           y = array2[array1[x] * 4096];
+- To attack
+      - â Find out the array2 index accessed with Flush+Reload
+      - â Why do we need to multiply by a stride of 64 ?
 
+---
 
 
 #### TP : GEM5 Config
