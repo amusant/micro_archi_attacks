@@ -247,6 +247,14 @@
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
 ---
+
++++?code=archi/src/hit_miss.c&lang=c&title=spectre.c
+@[41-45](Spectre Victim Function)
+Speculative execution of branch even when x > array1_size.
+Train the branch predictor for some iterations. Force it to
+mispredict.
+
+---
 #### TP : GEM5 Config
 <img src="assets/gem5.png" height="600"/>
 ---
