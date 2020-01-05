@@ -294,7 +294,14 @@ if (x < array1_size)
 - 3. access(probe_array[data * 4096]);
 Spill over to the Kernel memory space.
 Find the value through Flush+Reload.
+
 ---
+### MeltDown
+- Step 1 The content of an attacker-chosen memory location, which is inaccessible to the attacker, is loaded into a register.
+- Step 2 A transient instruction accesses a cache line based on the secret content of the register.
+- Step 3 The attacker uses Flush+Reload to determine the accessed cache line and hence the secret stored at the chosen memory location
+
+
 ### MeltDown Mitigations
 - KAISER Patch: User space does not have access to kernel memory.
 - KASLR (Address space layout randomization): Makes the attack difficult.
