@@ -256,6 +256,18 @@
 ### Spectre
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/spectre_bp.svg" height="400"/>
 ---
+### Spectre
+if (x < array1_size)
+           y = array2[array1[x] * 4096];
+- To attack
+      - â victim_address=array1+x
+      - â So â x=victim_address-array1
+      - â The array2 index accessed is the value stored in victim_address.
+
+----
+
+
+
 #### TP : GEM5 Config
 <img src="assets/gem5.png" height="600"/>
 ---
