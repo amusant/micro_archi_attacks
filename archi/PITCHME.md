@@ -255,7 +255,7 @@
 - [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
 ---
 #### TP STEP 1
-@size[0.5 em](
+@size[0.1em](
 - Clone the repository  https://github.com/amusant/micro_archi_attacks
 - $source env.sh  → sets up environment variables.
 - Go to directory hit_miss; look into code hit_miss.c
