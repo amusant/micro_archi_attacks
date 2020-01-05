@@ -205,10 +205,32 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
 ---
 
+### Example: Branch Target Buffer Side Channel (Ref [2])
+- BTB stores the target addresses of previous branches.
+- Acts like a cache.
+----
 +++?code=archi/src/mm.c&lang=c&title=Montgomery Multiplier BTB Attack
 @[1-2](Dependence)
 @[3](Stalled)
 ---
+### Example: Branch Target Buffer Side Channel (Ref [2])
+- assume that an adversary can run a spy process simultaneously with the cipher |
+- spy process continuously executes unconditional branches |
+- these branches map to the same BTB set with the conditional branch under attack. [
+---
+### Example: Branch Target Buffer Side Channel (Ref [2])
+- The adversary starts the spy process before the cipher |
+- Cipher cannot find the target address of the target branch in BTB -> misprediction |
+- misprediction -> the target address of the branch needs to be stored in BTB. |
+- spy branch is evicted. (they occupy the whole BTB set) |
+- spy finds from its own execution time if the branch was taken. |
+---
+
+### Example: Cache Side Channel
+----
+### Example: Memory Controller Side Channel
+----
+
 
 ### Example Heterogeneous SoCs
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
