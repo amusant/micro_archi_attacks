@@ -210,8 +210,8 @@
 - Acts like a cache.
 ----
 +++?code=archi/src/mm.c&lang=c&title=Montgomery Multiplier BTB Attack
-@[1-2](Dependence)
-@[3](Stalled)
+@[5-6](branch not taken)
+@[7-10](brnach taken)
 ---
 ### Example: Branch Target Buffer Side Channel (Ref [2])
 - assume that an adversary can run a spy process simultaneously with the cipher |
@@ -229,7 +229,6 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
 ---
 ### Example: Cache Side Channel (Ref [3])
-- 
 ---
 <img src="assets/slide1.jpg" height="600"/>
 ---
