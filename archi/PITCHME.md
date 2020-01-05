@@ -288,9 +288,9 @@
 	- Does it work ? 
 ---
 ### References
-- [1]
-- [2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c
-- [3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack
-- [4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,
-- [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
+- @size[0.5em]([1])
+- @size[0.5em]([2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c)
+- @size[0.5em]([3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack)
+- @size[0.5em]([4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,)
+- @size[0.5em]([5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser)
 ---
