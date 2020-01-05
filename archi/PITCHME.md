@@ -227,16 +227,16 @@
 ---
 
 ### Example: Cache Side Channel
-<img src="assets/slide1.jpg" height="400"/>
+<img src="assets/slide1.jpg" height="600"/>
 ----
 ### A
-<img src="assets/slide2.jpg" height="400"/>
+<img src="assets/slide2.jpg" height="600"/>
 ---
 ### B
-<img src="assets/slide3.jpg" height="400"/>
+<img src="assets/slide3.jpg" height="600"/>
 ---
 ### C
-<img src="assets/slide4.jpg" height="400"/>
+<img src="assets/slide4.jpg" height="600"/>
 ---
 ### Example: Memory Controller Side Channel
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide1.svg" height="400"/>
