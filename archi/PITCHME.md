@@ -280,13 +280,30 @@ if (x < array1_size)
 - However it is harder to exploit. Need to find code pattern in the victim:
          if (x < array1_size)
                     y = array2[array1[x] * 4096];
-
+---
 ### MeltDown
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/meltdown1.svg" height="400"/>
 ---
 ### MeltDown
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/meltdown2.svg" height="400"/>
 ---
+
+### MeltDown
+- 1. raise_exception();
+- 2. // the line below is never reached
+- 3. access(probe_array[data * 4096]);
+Spill over to the Kernel memory space.
+Find the value through Flush+Reload.
+
+### MeltDown Mitigations
+- KAISER Patch: User space does not have access to kernel memory.
+- KASLR (Address space layout randomization): Makes the attack difficult.
+
+
+
+---
+
+
 
 #### TP : GEM5 Config
 <img src="assets/gem5.png" height="600"/>
