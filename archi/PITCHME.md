@@ -279,6 +279,7 @@
 - @size[0.5em](Run make to compile the code in flush_reload directory)
 - @size[0.5em](Runs $make launch to launch simulation.)
 - @size[0.5em](Inspire yourself from the hit_miss code.)
+---
 #### TP STEP 3
 - Download the Spectre Example link from
 	- spectre/link
