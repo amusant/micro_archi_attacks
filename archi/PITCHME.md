@@ -262,8 +262,8 @@
 - @size[0.5em](Runs $make launch to launch simulation.)
 - @size[0.5em](We use the gem5 simulator to simulate a basic system with x86 processor and two levels of cache.)
 - @size[0.5em](Understand the code used for )
-    - Flush
-    - Acces 
-    - Reload
-- By changing the acces pattern  do you see any difference in the output  ?
-- What is the role of STRIDE, does the code still work after changing STRIDE ?
+    - @size[0.5em](Flush)
+    - @size[0.5em](Acces )
+    - @size[0.5em](Reload)
+- @size[0.5em](By changing the acces pattern  do you see any difference in the output  ?)
+- @size[0.5em](What is the role of STRIDE, does the code still work after changing STRIDE ?)
