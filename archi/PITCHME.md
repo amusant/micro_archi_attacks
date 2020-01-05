@@ -264,7 +264,7 @@
 - @size[0.5em](By changing the acces pattern  do you see any difference in the output  ?)
 - @size[0.5em](What is the role of STRIDE, does the code still work after changing STRIDE ?)
 ----
-+++?code=archi/src/mm.c&lang=c&title=hit_miss.c
++++?code=archi/src/hit_miss.c&lang=c&title=hit_miss.c
 @[24-26](Flushing the array)
 @[28-30](Access by Victim)
 @[32-39](Reload and measure time)
