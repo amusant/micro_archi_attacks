@@ -256,13 +256,13 @@
 ---
 #### TP STEP 1
 @size[1em](
-- (Clone the repository  https://github.com/amusant/micro_archi_attacks)
-- ($source env.sh  → sets up environment variables.)
-- (Go to directory hit_miss; look into code hit_miss.c)
-- (Run make to compile the code in hit_miss directory)
-- (Runs $make launch to launch simulation.)
-- (We use the gem5 simulator to simulate a basic system with x86 processor and two levels of cache.)
-- (Understand the code used for )
+- Clone the repository  https://github.com/amusant/micro_archi_attacks
+- $source env.sh  → sets up environment variables.
+- Go to directory hit_miss; look into code hit_miss.c
+- Run make to compile the code in hit_miss directory
+- Runs $make launch to launch simulation.
+- We use the gem5 simulator to simulate a basic system with x86 processor and two levels of cache.
+- Understand the code used for 
     - Flush
     - Acces 
     - Reload
