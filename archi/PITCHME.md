@@ -270,7 +270,7 @@
 ---
 #### TP STEP 2
 - @size[0.5em](Go to directory flush_reload; look into code flush_reload.c)
-- @size[0.5em](The function victim\(k\) does the following:)
+- @size[0.5em](The function victim does the following:)
 - @size[0.5em](It accesses the array[secret[desknumber][i]*STRIDE])
 - @size[0.5em](Where the secret is a 16 character secret key. )
 	- @size[0.5em](secret[desknumber]=”XXXXXXXXXXXXXXXX”)
@@ -279,3 +279,16 @@
 - @size[0.5em](Run make to compile the code in flush_reload directory)
 - @size[0.5em](Runs $make launch to launch simulation.)
 - @size[0.5em](Inspire yourself from the hit_miss code.)
+#### TP STEP 3
+- Download the Spectre Example link from
+	- spectre/link
+- Read and Understand the code.
+- Compile the code
+	-$gcc spectre.c
+	-Launch the experiment
+		- $gem5.opt ../configs/two_level.py ./a.out
+		- does it work ?
+- Change line 99 in ../configs/two_level.py
+	- from DerivO3CPU() to TimingSimpleCPU()
+	- realaunch simulation
+	- DOes it work ? 
