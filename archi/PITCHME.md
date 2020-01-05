@@ -270,7 +270,7 @@
 ---
 #### TP STEP 2
 - @size[0.5em](Go to directory flush_reload; look into code flush_reload.c)
-- @size[0.5em](The function victim(k) does the following:)
+- @size[0.5em](The function victim\(k\) does the following:)
 - @size[0.5em](It accesses the array[secret[desknumber][i]*STRIDE])
 - @size[0.5em](Where the secret is a 16 character secret key. )
 	- @size[0.5em](secret[desknumber]=”XXXXXXXXXXXXXXXX”)
