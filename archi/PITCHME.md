@@ -267,6 +267,7 @@
     - @size[0.5em](Reload)
 - @size[0.5em](By changing the acces pattern  do you see any difference in the output  ?)
 - @size[0.5em](What is the role of STRIDE, does the code still work after changing STRIDE ?)
+---
 #### TP STEP 2
 - @size[0.5em](Go to directory flush_reload; look into code flush_reload.c)
 - @size[0.5em](The function victim(k) does the following:)
