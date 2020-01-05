@@ -301,7 +301,7 @@ Find the value through Flush+Reload.
 - Step 2 A transient instruction accesses a cache line based on the secret content of the register.
 - Step 3 The attacker uses Flush+Reload to determine the accessed cache line and hence the secret stored at the chosen memory location
 
-
+---
 ### MeltDown Mitigations
 - KAISER Patch: User space does not have access to kernel memory.
 - KASLR (Address space layout randomization): Makes the attack difficult.
