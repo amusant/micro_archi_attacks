@@ -225,6 +225,12 @@
 - spy branch is evicted. (they occupy the whole BTB set) |
 - spy finds from its own execution time if the branch was taken. |
 ---
+### SCA Classifications
+<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
+---
+### Example: Cache Side Channel (Ref [3])
+- 
+---
 <img src="assets/slide1.jpg" height="600"/>
 ---
 <img src="assets/slide2.jpg" height="600"/>
@@ -233,18 +239,26 @@
 ---
 <img src="assets/slide4.jpg" height="600"/>
 ---
-### Example: Memory Controller Side Channel
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide1.svg" height="400"/>
+### SCA Classifications
+<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
+---
+### Example: Memory Controller Side Channel (Ref [4])
+- Detecting firefox keystrokes from row buffer conflicts.
+- find target addresses
+- open a row in the same bank.
+- detect memory access from rowbuffer hit/miss time.
 ----
 
 
-### Example Heterogeneous SoCs
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/acecontext.svg" height="400"/>
+### References
+- [1]
+- [2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c
+- [3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack
+- [4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,
+- [5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser
 ---
 ### Our SoC: Exynos 5422
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/exynos5422.svg" height="400"/>
 ---
 
 #### quiz
-
-* What is maximum computation rate in Flops/S. ?
