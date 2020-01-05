@@ -227,19 +227,16 @@
 ---
 
 ### Example: Cache Side Channel
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide1.svg" height="400"/>
+<img src="assets/slide1.jpg" height="400"/>
 ----
 ### A
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide1.svg" height="400"/>
+<img src="assets/slide2.jpg" height="400"/>
 ---
 ### B
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide2.svg" height="400"/>
+<img src="assets/slide3.jpg" height="400"/>
 ---
 ### C
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide3.svg" height="400"/>
----
-### D
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide4.svg" height="400"/>
+<img src="assets/slide4.jpg" height="400"/>
 ---
 ### Example: Memory Controller Side Channel
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/slide1.svg" height="400"/>
