@@ -246,7 +246,7 @@
 - find target addresses
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
-----
+---
 ### References
 - [1]
 - [2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c
