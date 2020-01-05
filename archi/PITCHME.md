@@ -281,6 +281,12 @@ if (x < array1_size)
          if (x < array1_size)
                     y = array2[array1[x] * 4096];
 
+### MeltDown
+<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/meltdown1.svg" height="400"/>
+---
+### MeltDown
+<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/meltdown2.svg" height="400"/>
+---
 
 #### TP : GEM5 Config
 <img src="assets/gem5.png" height="600"/>
