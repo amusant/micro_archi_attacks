@@ -225,7 +225,6 @@
 - spy branch is evicted. (they occupy the whole BTB set) |
 - spy finds from its own execution time if the branch was taken. |
 ---
-
 <img src="assets/slide1.jpg" height="600"/>
 ----
 <img src="assets/slide2.jpg" height="600"/>
