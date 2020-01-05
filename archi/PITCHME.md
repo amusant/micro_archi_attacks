@@ -247,7 +247,7 @@
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
 ---
-#TP : GEM5 Config
+#### TP : GEM5 Config
 <img src="assets/gem5.png" height="600"/>
 ---
 #### TP STEP 1
