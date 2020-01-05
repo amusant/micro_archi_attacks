@@ -294,7 +294,7 @@ if (x < array1_size)
 - 3. access(probe_array[data * 4096]);
 Spill over to the Kernel memory space.
 Find the value through Flush+Reload.
-
+---
 ### MeltDown Mitigations
 - KAISER Patch: User space does not have access to kernel memory.
 - KASLR (Address space layout randomization): Makes the attack difficult.
