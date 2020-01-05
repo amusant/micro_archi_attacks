@@ -249,12 +249,10 @@
 ---
 
 +++?code=archi/src/hit_miss.c&lang=c&title=spectre.c
-@[41-45](Spectre Victim Function)
-Speculative execution of branch even when x > array1_size.
+@[41-45](Speculative execution of branch even when x > array1_size.)
 +++?code=archi/src/hit_miss.c&lang=c&title=spectre.c
-@[41-45](Spectre Victim Function)
-Train the branch predictor for some iterations. Force it to
-mispredict.
+@[41-45](Train the branch predictor for some iterations. Force it to
+mispredict.)
 
 ---
 #### TP : GEM5 Config
