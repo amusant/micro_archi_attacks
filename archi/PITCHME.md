@@ -264,7 +264,7 @@ if (x < array1_size)
       - â So â x=victim_address-array1
       - â The array2 index accessed is the value stored in victim_address.
 
-----
+---
 
 
 
