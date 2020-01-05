@@ -226,7 +226,7 @@
 - spy finds from its own execution time if the branch was taken. |
 ---
 <img src="assets/slide1.jpg" height="600"/>
-----
+---
 <img src="assets/slide2.jpg" height="600"/>
 ---
 <img src="assets/slide3.jpg" height="600"/>
