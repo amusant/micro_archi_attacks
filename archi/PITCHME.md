@@ -45,9 +45,11 @@
 ---
 ### Processor: VLIW
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/vliw.svg" height="400"/>
+- Issues Multiple Instructions in a single timeslot, statically scheduled.
 ---
 ### Multi-Threading: Superscalar
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/superscalar.svg" height="400"/>
+- Issues Multiple Instructions in a single timeslot, dynamically scheduled.
 ---
 ### Multi-Threading: Coarse-Grained
 <img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/coarse_mt.svg" height="400"/>
@@ -106,7 +108,7 @@
 ### Example: Branch Target Buffer Side Channel (Ref [2])
 - BTB stores the target addresses of previous branches.
 - Acts like a cache.
-----
+---
 +++?code=archi/src/mm.c&lang=c&title=Montgomery Multiplier BTB Attack
 @[5-6](branch not taken)
 @[7-10](brnach taken)
@@ -114,7 +116,7 @@
 ### Example: Branch Target Buffer Side Channel (Ref [2])
 - assume that an adversary can run a spy process simultaneously with the cipher |
 - spy process continuously executes unconditional branches |
-- these branches map to the same BTB set with the conditional branch under attack. [
+- these branches map to the same BTB set with the conditional branch under attack. |
 ---
 ### Example: Branch Target Buffer Side Channel (Ref [2])
 - The adversary starts the spy process before the cipher |
@@ -183,7 +185,7 @@
 #HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu1.svg&size=auto 90%
 ---
 
-### Recap: MMu Operation
+### Recap: MMU Operation
 * Translation Lookaside Buffer
 	* Keeps a page table for virtual to physical address translation.
 	* 4GB memory with page size of 4K => ~4MB
