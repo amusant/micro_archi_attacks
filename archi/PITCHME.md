@@ -7,6 +7,7 @@
 	- Side Channels: Unintentional leakage of sensitive data
 	- Covert Channels: Deliberate leakage of sensitive data (by a Trojan) 
 - Denial of Service
+- Reverse Engineering.
 
 ---
 ### Information Leakage
@@ -14,6 +15,9 @@
 	- Storage Side-Channels: e.g unprotected memory locations.
 	- Timing Side channels: e.g Information contained in cache hit/miss time difference.
 
+---
+### SCA Classifications
+<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
 ---
 ### Recap: Computer Architecture
 
@@ -214,6 +218,14 @@
 <img src="assets/slide3.jpg" height="600"/>
 ---
 <img src="assets/slide4.jpg" height="600"/>
+---
+### Example: Prime+Probe
+---
+<img src="assets/prime_probe1.pdf" height="600"/>
+---
+<img src="assets/prime_probe1.pdf" height="600"/>
+---
+<img src="assets/prime_probe1.pdf" height="600"/>
 ---
 ### SCA Classifications
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
