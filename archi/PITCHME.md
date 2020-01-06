@@ -1,4 +1,7 @@
 ### Micro-Architectural Attacks
+
+##### Sumanta Chaudhuri 
+
 ##### (6 Jan, 2020) 
 ---
 ### Micro-Architectural Attacks
