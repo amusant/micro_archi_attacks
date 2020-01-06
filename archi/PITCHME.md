@@ -221,11 +221,11 @@
 ---
 ### Example: Prime+Probe
 ---
-<img src="assets/prime_probe1.pdf" height="600"/>
+<img src="assets/prime_probe1.png" height="600"/>
 ---
-<img src="assets/prime_probe1.pdf" height="600"/>
+<img src="assets/prime_probe2.png" height="600"/>
 ---
-<img src="assets/prime_probe1.pdf" height="600"/>
+<img src="assets/prime_probe3.png" height="600"/>
 ---
 ### SCA Classifications
 <img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
