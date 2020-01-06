@@ -219,7 +219,6 @@
 ---
 <img src="assets/slide4.jpg" height="600"/>
 ---
-### Example: Prime+Probe
 <img src="assets/prime_probe1-1.png" height="600"/>
 ---
 <img src="assets/prime_probe2-1.png" height="600"/>
