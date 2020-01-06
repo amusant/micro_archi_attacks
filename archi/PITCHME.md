@@ -371,11 +371,13 @@ Find the value through Flush+Reload.
 	- Does it work ? 
 ---
 ### References
-- @size[0.5em]([1])
+- @size[0.5em]([1] Computer Architecture:  A Quantitative Approach. Hennesssy & Patterson)
 - @size[0.5em]([2] Predicting Secret Keys via Branch Prediction, Onur Acıicmez, Jean-Pierre Seifert, and C¸ etin Kaya Ko¸c)
 - @size[0.5em]([3] FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack)
-- @size[0.5em]([4] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,)
-- @size[0.5em]([5] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser)
-- @size[0.5em]([5] Spectre Attacks: Exploiting Speculative Execution Paul Kocher, Jann Horn, Anders Fogh, Daniel Genkin,Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp,Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom)
-- @size[0.5em](Meltdown: Reading Kernel Memory from User Space Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher,Werner Haas, Anders Fogh, Jann Horn, Stefan Mangard,Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg)
+- @size[0.5em]([4] Meltdown: Reading Kernel Memory from User Space Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher,Werner Haas, Anders Fogh, Jann Horn, Stefan Mangard,Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg)
+---
+### References
+- @size[0.5em]([5] DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks Peter Pessl, Daniel Gruss, Clémentine Maurice, Michael Schwarz, and Stefan Mangard,)
+- @size[0.5em]([6] A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware Qian Ge, Yuval Yarom2 , David Cock, and Gernot Heiser)
+- @size[0.5em]([7] Spectre Attacks: Exploiting Speculative Execution Paul Kocher, Jann Horn, Anders Fogh, Daniel Genkin,Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp,Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom)
 ---
