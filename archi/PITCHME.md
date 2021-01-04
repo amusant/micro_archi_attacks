@@ -294,6 +294,27 @@ Montgomery Multiplier BTB Attack
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
 ---
+
+### Standard Protections
+(Doesn't protect from Side Channel Attacks)
+
+
+
+- Each User Process runs in its own virtual space.
+- The security is guranteed through isolation of virtual memory spaces.
+- Enforced during address translation.
+
+![width=500](assets/syscall.svg)
+
+- Syscalls are the only way to access operating system functions.
+---
+ 
+
+
+---
+
+## Spectre
+---
 [drag=99, drop=center, fit=0.5]
 @code[c](archi/src/spectre.c)
 [drag=30 10, drop=topright, font=bubblegum]
@@ -305,6 +326,8 @@ Montgomery Multiplier BTB Attack
 @[41-45](Train the branch predictor for some iterations. Force it to mispredict.)
 
 ---
+
+
 ### Spectre
 ![width=1500](assets/spectre_bp.svg)
 ---
@@ -337,7 +360,7 @@ if (x < array1_size)
 ![width=1500](assets/meltdown1.svg)
 ---
 ### MeltDown
-![width=1500](assets/meltdown2.svg)
+![width=1000](assets/meltdown2.svg)
 ---
 
 ### MeltDown
@@ -408,8 +431,8 @@ Find the value through Flush+Reload.
 - Compile the code
 	-$gcc spectre.c
 	-Launch the experiment
-		- $gem5.opt ../configs/two_level.py ./a.out
-		- does it work ?
+	  -$gem5.opt ../configs/two_level.py ./a.out
+	  -does it work ?
 - Change line 99 in ../configs/two_level.py
 	- from DerivO3CPU() to TimingSimpleCPU()
 	- realaunch simulation
