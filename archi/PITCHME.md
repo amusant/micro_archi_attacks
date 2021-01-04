@@ -2,7 +2,7 @@
 
 ##### Sumanta Chaudhuri 
 
-##### (18 March, 2020) 
+##### (04 Jan, 2021) 
 ---
 ### Micro-Architectural Attacks
 
@@ -20,7 +20,7 @@
 
 ---
 ### SCA Classifications
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
+![width=1000](assets/sca_classification.svg)
 ---
 ### Recap: Computer Architecture
 
@@ -30,48 +30,66 @@
 - Main Memory (DDR) |
 ---
 ### SCA Classifications
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
+![width=1000](assets/sca_classification.svg)
 ---
 ### Recap: Processors 
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd1.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd2.svg&size=auto 90%
-+++?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/simd3.svg&size=auto 90%
++++?image=assets/simd.svg&size=auto 90%
++++?image=assets/simd1.svg&size=auto 90%
++++?image=assets/simd2.svg&size=auto 90%
++++?image=assets/simd3.svg&size=auto 90%
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Uniprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uniprocessor.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=500](assets/fig/uniprocessor.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multiprocessor
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/gpu_mimd.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/gpu_mimd.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multiprocessor: UMA
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/uma.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/uma.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multiprocessor: NUMA
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/numa.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/numa.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Processor: VLIW
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/vliw.svg" height="400"/>
-- Issues Multiple Instructions in a single timeslot, statically scheduled.
+[drag=70 100, drop=right]
+![width=1000](assets/fig/vliw.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multi-Threading: Superscalar
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/superscalar.svg" height="400"/>
-- Issues Multiple Instructions in a single timeslot, dynamically scheduled.
+[drag=70 100, drop=right]
+![width=1000](assets/fig/superscalar.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multi-Threading: Coarse-Grained
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/coarse_mt.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/coarse_mt.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multi-Threading: Fine-Grained
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/fine_mt.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/fine_mt.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Multi-Threading: Simultaneous
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/smt.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/smt.svg)
 ---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=0.8, set=text-white]
 ### Reacp: Multi-Threading
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/mt.svg" height="400"/>
+[drag=70 100, drop=right]
+![width=1000](assets/fig/mt.svg)
 ---
 ### In Order Processor Pipeline
-<img src="assets/up-pipeline.png" height="400"/>
+![width=1500](assets/up-pipeline.png)
 ---
 ### In Order Processor Pipeline
 - Statically Scheduled (During Compile Time)
@@ -89,13 +107,17 @@
 	- Tagged Hybrid Predcitors. ([1] p.188)
 ---
 
-+++?code=archi/src/ex1.asm&lang=c&title=Dynamic Scheduling and Out-of-Order execution [1] p.193
+[drop=0 10, fit=1.4]
+-Dynamic Scheduling and Out-of-Order execution [1] p.193
+[drag=99, drop=right, fit=0.8]
+@code[c](archi/src/ex1.asm)
+[drag=30 50, drop=topright, font=bubblegum]
 @[1-2](Dependence)
 @[3](Stalled)
 ---
 
 ### Out-of-Order Pipeline
-<img src="assets/ooo.png" height="400"/>
+![width=1200](assets/ooo.png)
 ---
 
 ### Out-of-Order Pipeline
@@ -116,9 +138,13 @@
 - BTB stores the target addresses of previous branches.
 - Acts like a cache.
 ---
-+++?code=archi/src/mm.c&lang=c&title=Montgomery Multiplier BTB Attack
+[drop=0 10, fit=0.8]
+Montgomery Multiplier BTB Attack
+[drag=99, drop=center, fit=0.8]
+@code[c](archi/src/mm.c)
+[drag=30 50, drop=topright, font=bubblegum]
 @[5-6](branch not taken)
-@[7-10](brnach taken)
+@[7-10](branch taken)
 ---
 ### Example: Branch Target Buffer Side Channel (Ref [2])
 - assume that an adversary can run a spy process simultaneously with the cipher |
@@ -133,11 +159,11 @@
 - spy finds from its own execution time if the branch was taken. |
 ---
 ### SCA Classifications
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
+![width=1000](assets/sca_classification.svg)
 ---
 
 ### RECAP: Cache
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/opencl.svg" height="400"/>
+![width=600](assets/opencl.svg)
 ---
 
 ### RECAP: Cache: Cache Terminology
@@ -157,7 +183,7 @@
 
 ### RECAP  Cache Organization (4 Way)
 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/cache.svg" height="400"/>
+![width=700](assets/cache.svg)
 ---
 ### RECAP  Cache Policies
 
@@ -186,10 +212,14 @@
 	* Cache to Cache move of Dirty data without accessing external memory.
 
 ---
-### Recap : MMU
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu.svg&size=auto 90%
-<!-- .slide: data-background-transition="none" -->
-#HSLIDE?image=http://perso.telecom-paristech.fr/~chaudhur/tpt39/mmu1.svg&size=auto 90%
+[drag=30 100, drop=left, bg=#0B5D8C]
+@ul[list-spaced-bullets list-fade-bullets, drag=30 100, drop=left, fit=1.4, set=text-white, sync=true]
+- Recap : Virtual Memory
+- MMU
+@ul
+[drag=70 100, drop=right, flow=stack, sync=true]
+![width=1000](assets/mmu.svg)
+![width=1000](assets/mmu1.svg)
 ---
 
 ### Recap: MMU Operation
@@ -202,7 +232,7 @@
     * TLB acts as a cache for page table entries (PTE).
 ---
 ### Recap : Life of a Memory Request
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/vm_path.svg" height="400"/>
+![](assets/vm_path.svg)
 ---
 
 ### Recap : Memory Hierarchy
@@ -214,37 +244,44 @@
 ---
 ### Example: Cache Side Channel (Ref [3])
 ---
-<img src="assets/slide1.jpg" height="600"/>
+![width=2000](assets/slide1.jpg)
 ---
-<img src="assets/slide2.jpg" height="600"/>
+![width=2000](assets/slide2.jpg)
 ---
-<img src="assets/slide3.jpg" height="600"/>
+![width=2000](assets/slide3.jpg)
 ---
-<img src="assets/slide4.jpg" height="600"/>
+![width=2000](assets/slide4.jpg)
 ---
-<img src="assets/prime_probe1-1.png" height="600"/>
+![width=2000](assets/prime_probe1-1.png)
 ---
-<img src="assets/prime_probe2-1.png" height="600"/>
+![width=2000](assets/prime_probe2-1.png)
 ---
-<img src="assets/prime_probe3-1.png" height="600"/>
+![width=2000](assets/prime_probe3-1.png)
 ---
 ### SCA Classifications
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/sca_classification.svg" height="400"/>
+![width=1000](assets/sca_classification.svg)
+---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=1.4, set=text-white]
+- DRAM Operation: A single DRAM Bank
+[drag=70 100, drop=right]
+![width=1000](assets/fig/ddr_bank.svg)
 ---
 
-### DRAM Operation: A single DRAM Bank
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/ddr_bank.svg" height="400"/>
----
-### DRAM Operation: Banks 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/ddr.svg" height="400"/>
----
 ### DRAM Operation: DRAM Operation
 * READ: Activate (open the row)-> Read -> Precharge (close).
 * WRITE: Activate (open the row)-> Write -> Precharge (close).
 * REFRESH: READ-> WRITE back.
 ---
 ### DRAM Traffic TCL,TRCD,TRP
-<img src="http://perso.telecom-paristech.fr/~chaudhur/tpt39/fig/dram.svg" height="400"/>
+![width=1500](assets/fig/dram.svg)
+---
+[drag=30 100, drop=left, bg=#0B5D8C, fit=1.4, set=text-white]
+- DRAM Operation: Banks 
+[drag=70 100, drop=right]
+![width=1500](assets/fig/ddr.svg)
+---
+### DRAM Traffic TCL,TRCD,TRP
+![width=1500](assets/fig/dram.svg)
 ---
 
 ### DRAM Traffic
@@ -256,15 +293,20 @@
 - find target addresses
 - open a row in the same bank.
 - detect memory access from rowbuffer hit/miss time.
-
-+++?code=archi/src/spectre.c&lang=c&title=spectre.c
+---
+[drag=99, drop=center, fit=0.5]
+@code[c](archi/src/spectre.c)
+[drag=30 10, drop=topright, font=bubblegum]
 @[41-45](Speculative execution of branch even when x > array1_size.)
-+++?code=archi/src/spectre.c&lang=c&title=spectre.c
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](archi/src/spectre.c)
+[drag=30 50, drop=topright, font=bubblegum]
 @[41-45](Train the branch predictor for some iterations. Force it to mispredict.)
 
 ---
 ### Spectre
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/spectre_bp.svg" height="400"/>
+![width=1500](assets/spectre_bp.svg)
 ---
 ### Spectre
 if (x < array1_size)
@@ -292,10 +334,10 @@ if (x < array1_size)
                     y = array2[array1[x] * 4096];
 ---
 ### MeltDown
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/meltdown1.svg" height="400"/>
+![width=1500](assets/meltdown1.svg)
 ---
 ### MeltDown
-<img src="http://perso.telecom-paristech.fr/~chaudhur/micro_archi_attacks/meltdown2.svg" height="400"/>
+![width=1500](assets/meltdown2.svg)
 ---
 
 ### MeltDown
@@ -323,7 +365,8 @@ Find the value through Flush+Reload.
 
 
 #### TP : GEM5 Config
-<img src="assets/gem5.png" height="600"/>
+![width=1500](assets/gem5.png)
+
 ---
 #### TP STEP 1
 - @size[0.5em](Clone the repository  https://github.com/amusant/micro_archi_attacks)
@@ -338,8 +381,10 @@ Find the value through Flush+Reload.
     - @size[0.5em](Reload)
 - @size[0.5em](By changing the acces pattern  do you see any difference in the output  ?)
 - @size[0.5em](What is the role of STRIDE, does the code still work after changing STRIDE ?)
-
-+++?code=archi/src/hit_miss.c&lang=c&title=hit_miss.c
+---
+[drag=99, drop=center, fit=0.8]
+@code[c](archi/src/hit_miss.c)
+[drag=30 50, drop=topright, font=bubblegum]
 @[24-26](Flushing the array)
 @[28-30](Access by Victim)
 @[32-39](Reload and measure time)
